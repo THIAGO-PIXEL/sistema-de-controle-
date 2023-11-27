@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistec Cel</title>
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- ICONES -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <img src="img/WhatsApp Image 2023-11-22 at 21.28.19.jpeg" class="marcadagua" alt="logo assistec cel" />
+    </div>
+      <div class="header">
+      <span>Controle de aparelhos em manutenção</span>
+      <button onclick="openModal()" id="new">Incluir</i></button>
+    </div>
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Aparelho</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th class="acao">Editar</th>
+            <th class="acao">Excluir</th>
+            <th class="acao">Imprimir</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="m-cliente">Cliente</label>
+          <input id="m-cliente" type="text" required />
+  
+          <label for="m-aparelho">Aparelho</label>
+          <input id="m-aparelho" type="text" required />
+
+          <label for="m-descricao">Descrição</label>
+          <input id="m-descricao" type="text" required />
+  
+          <label for="m-valor">Valor</label>
+          <input id="m-valor" type="number" required />
+          <button id="btnSalvar">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </div>
+</body>
+
+</html>
