@@ -1,4 +1,4 @@
-# sistema-de-controle de equipamentos-
+# sistema-de-controle em equipamentos-
 sistema de controle em manutenção de equipamentos eletrônicos:
 
 
