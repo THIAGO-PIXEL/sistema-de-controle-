@@ -1,5 +1,5 @@
 # sistema-de-controle de equipamentos-
-sistema de controle de manutenção e equipamentos eletrônicos:
+sistema de controle de manutenção de equipamentos eletrônicos:
 
 
 Construido em JS e CSS esse sistema visa ter o controle na entrada de ordens de serviço na manutenção de diversos aparehlos eletrônicos, ex celulares tabletes e notbooks.
